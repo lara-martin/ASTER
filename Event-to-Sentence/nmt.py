@@ -1,7 +1,4 @@
-"""Main script to run things"""
 import sys
-
-sys.path.append('/home/eilab/StoryGeneration/Evenet2Sentence')
 
 from data_utils import read_nmt_data, get_minibatch, read_config, hyperparam_string
 from model import Seq2Seq, Seq2SeqAttention, Seq2SeqFastAttention

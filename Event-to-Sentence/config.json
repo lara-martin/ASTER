@@ -12,10 +12,10 @@
     "evaluate": false
   },
   "data": {
-    "src": "/mnt/sdb1/git_code/StoryGeneration/Event2Sentence/Data/generalEventTrain_input.txt",
-    "trg": "/mnt/sdb1/git_code/StoryGeneration/Event2Sentence/Data/generalEventTrain_output.txt",
-    "test_src": "/mnt/sdb1/git_code/StoryGeneration/Event2Sentence/Data/generalEventTest_input.txt",
-    "test_trg": "/mnt/sdb1/git_code/StoryGeneration/Event2Sentence/Data/generalEventTest_output.txt",
+    "src": "train_input.txt",
+    "trg": "train_output.txt",
+    "test_src": "test_input.txt",
+    "test_trg": "test_output.txt",
     "batch_size": 80,
     "n_words_trg": 30000,
     "valid_batch_size": 80,
@@ -23,9 +23,9 @@
     "max_src_length": 4,
     "max_trg_length": 4,
     "task": "translation",
-    "save_dir": "/mnt/sdb1/git_code/StoryGeneration/Event2Sentence/Models",
+    "save_dir": "",
     "load_dir": false,
-    "preload_weights": "model_translation__src_AllGenEvents__trg_GenSents__attention_attention__dim_1024__emb_dim_1024__optimizer_adam__n_layers_src_3__n_layers_trg_1__bidir_True__epoch_final30.model"
+    "preload_weights": ""
   },
   "model": {
     "dim": 512,
@@ -38,8 +38,8 @@
     "n_layers_src": 3,
     "n_layers_trg": 1,
     "bidirectional": false,
-    "src_type": "genEvents",
-    "trg_type": "genEvents",
+    "src_type": "",
+    "trg_type": "",
     "decode": "beam_search",
     "beam_size": 5,
     "seq2seq": "attention",
