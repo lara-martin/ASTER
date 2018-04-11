@@ -16,6 +16,7 @@ Event-to-Event and Event-to-Sentence files can be found in their respective fold
 To start a Stanford CoreNLP server, run: `sh runNLPserver.sh`. Run `python corenlp.py` to parse your data and then you can run `python dataCleaning.py` to prune and split.
 
 **Event Creation** code takes separate NER and parse files, and extracts multiple events.
+
 *Note:* The parsing code we have provided has combined the parses and NER into a single file. You will have to change these following files to match this format.
 Once you have the parses, you can run `python generalize_events.py` for generalized events, or `python generalize_events_bigrams.py` for event bigrams with continuing named entities, or `python generalize_events_bigrams.py` to generalize the entire sentence.
 
