@@ -292,7 +292,7 @@ class LSTMAttention(nn.Module):
             hidden = recurrence(
                 input[i], hidden, projected_input[i], projected_ctx
             )
-            output.append(isinstance(hidden, tuple) and hidden[0] or hidden)
+            output.append(isinstance(hidden, tuple) and hidden[0])
 
         output = torch.cat(output, 0).view(input.size(0), *output[0].size())
 
