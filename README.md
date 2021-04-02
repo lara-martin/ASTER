@@ -7,7 +7,7 @@ http://laramartin.net/pub/AAAI18-EventRepresentations.pdf
 **Disclaimer** This code is not upkept.
 
 ## Data:
-Can be found here: https://www.dropbox.com/s/644zee5kj6b5qxx/EventRepresentationDataRelease.zip?dl=0
+Can be found here: https://www.dropbox.com/s/i5dsk92735jpunf/EventRepresentationDataRelease.zip?dl=0
 
 Event-to-Event and Event-to-Sentence files can be found in their respective folders. Within each, data files are located in folders that are numbered in the order that they are presented in the paper. Each of these nested folders contains files for test input, expected test output, and generated output (labeled accordingly).
 
