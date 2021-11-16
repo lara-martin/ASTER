@@ -1,10 +1,20 @@
 # ASTER
 Agent for Story Turn-taking using Event Representations
 
-Code from the paper LJ Martin, P Ammanabrolu, X Wang, W Hancock, S Singh, B Harrison, and MO Riedl. Event Representations for Automated Story Generation with Deep Neural Nets, Thirty-Second AAAI Conference on Artificial Intelligence (AAAI-18), New Orleans, LA.
-http://laramartin.net/pub/AAAI18-EventRepresentations.pdf
-
 **Disclaimer** This code is not upkept.
+
+## Citation:
+```
+@inproceedings{Martin2018AAAI, 
+title={Event Representations for Automated Story Generation with Deep Neural Nets}, 
+author={Lara J. Martin and Prithviraj Ammanabrolu and Xinyu Wang and William Hancock and Shruti Singh and Brent Harrison and Mark O. Riedl}, 
+journal={Proceedings of the AAAI Conference on Artificial Intelligence (AAAI)}, 
+year={2018}, 
+volume={32},
+number={01},
+url={https://ojs.aaai.org/index.php/AAAI/article/view/11430}
+}
+```
 
 ## Data:
 Can be found here: https://www.dropbox.com/s/i5dsk92735jpunf/EventRepresentationDataRelease.zip?dl=0
