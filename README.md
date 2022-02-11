@@ -1,5 +1,5 @@
 # ASTER
-Agent for Story Turn-taking using Event Representations
+Automated Story-Telling using Event Representations
 
 **Disclaimer** This code is not upkept.
 
